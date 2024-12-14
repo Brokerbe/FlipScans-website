@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import modular CSS files */
+@import './styles/animations.css';
+@import './styles/effects.css';
+@import './styles/logo.css';
+
+/* Base styles */
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Component styles */
+@layer components {
+  .logo-container {
+    @apply relative inline-flex items-center;
+  }
+}
